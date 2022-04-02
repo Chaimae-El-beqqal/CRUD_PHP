@@ -1,0 +1,67 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body
+{
+    margin: 0 auto;
+    padding:0 auto;
+}
+h1
+{
+    font-size: 3em;
+    color:rgb(54, 54, 54);
+    margin-left:38%;
+}
+img
+{
+    width:200px;
+    height:200px;
+   margin-left:43%;
+}
+label
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    display:block;
+    margin:0 auto;
+    padding:5px 41%;
+    color:rgb(54, 54, 54);
+}
+input
+{
+    display:block;
+    margin:5px auto;
+    width:250px;
+    height: 40px;
+}
+.links
+{
+    font-size:1.2rem;
+    font-weight: bold;
+    display:block;
+    margin:5px auto;
+    padding:5px 40%;
+   
+}
+input[name="submit"]
+{
+    width:250px;
+    font-weight: bold;
+    font-size:1.2rem;
+    color:rgb(37, 37, 37);
+
+    /* padding:5px 43%; */
+}
+.links :focus
+{
+    text-decoration: none;
+    color:red;
+}
+table,tr,td,th
+{
+    border-collapse: collapse;
+    border:2px solid #333;
+    margin:5px 37%;
+}
